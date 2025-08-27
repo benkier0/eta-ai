@@ -47,13 +47,13 @@ resources to research:
     TRAIN THE MODEL, CREATED LR OBJECT
 
     reg.score(X, y)
-    >>> 1.0
+    1.0
     reg.coef_
-    >>> array([1., 2.])
+    array([1., 2.])
     reg.intercept_
-    >>> np.float64(3.0)
+    np.float64(3.0)
     reg.predict(np.array([[3, 5]]))
-    >>> array([16.])
+    array([16.])
     for x_0 = 3, x_1 = 5 model predicts 16
 
 
